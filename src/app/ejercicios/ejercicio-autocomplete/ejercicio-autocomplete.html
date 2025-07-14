@@ -1,0 +1,26 @@
+<div class="exercise-container">
+  
+  <a routerLink="/inicio" class="back-button">← Volver al Inicio</a>
+  
+  <h2>Ejemplo 1: Autocomplete con Primera Opción Activa</h2>
+
+  <form class="example-form">
+    <mat-form-field class="example-full-width">
+      <mat-label>Número</mat-label>
+      <input 
+        type="text" 
+        placeholder="Seleccionar uno" 
+        aria-label="Número" 
+        matInput 
+        [formControl]="myControl" 
+        [matAutocomplete]="auto">
+      
+      <mat-autocomplete #auto="matAutocomplete" [autoActiveFirstOption]="true">
+        @for (option of filteredOptions | async; track option) {
+          <mat-option [value]="option">{{ option }}</mat-option>
+        }
+      </mat-autocomplete>
+    </mat-form-field>
+  </form>
+
+</div>
