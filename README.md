@@ -86,6 +86,16 @@ Este proyecto utiliza `angular-cli-ghpages` para un despliegue sencillo. Si has 
     ```
 
 ---
+## Capturas de pantalla
+
+### Vista 1
+![Captura de pantalla 2025-07-15 071222](./Captura%20de%20pantalla%202025-07-15%20071222.png)
+
+### Vista 2
+![Captura de pantalla 2025-07-15 071246](./Captura%20de%20pantalla%202025-07-15%20071246.png)
+
+### Vista 3
+![Captura de pantalla 2025-07-15 071315](./Captura%20de%20pantalla%202025-07-15%20071315.png)
 
 Este proyecto fue generado con [Angular CLI](https://github.com/angular/angular-cli) versión 20.X.X._
 Una vez que tengas el archivo README.md listo, solo tienes que subirlo a tu repositorio de GitHub:
