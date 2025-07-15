@@ -9,7 +9,7 @@ Generated markdown
 
 El proyecto está construido con **Angular v20** y utiliza la arquitectura de componentes **Standalone** y **Angular Material** para la interfaz de usuario.
 
-**[Enlace a la demo en GitHub Pages](https://<tu-usuario>.github.io/<tu-repositorio>/)**
+**[Enlace a la demo en GitHub Pages]([https://<tu-usuario>.github.io/<tu-repositorio](https://josemanuelcruzcristales-777.github.io/mi-proyecto-ejercicios/inicio)>/)**
 
 ---
 
@@ -29,15 +29,6 @@ La aplicación tiene una página de inicio que funciona como un índice, permiti
 *   **Despliegue:** [GitHub Pages](https://pages.github.com/)
 
 ---
-
-## Lista de Ejercicios
-
-Aquí está la lista de los ejercicios implementados hasta ahora. ¡Haz clic en cualquiera para verlo en acción!
-
-*   **[Ejercicio 1: Autocomplete](https://<tu-usuario>.github.io/<tu-repositorio>/ejercicio-autocomplete)** - Un campo de autocompletado que sugiere opciones mientras el usuario escribe, resaltando automáticamente la primera opción.
-*   **Ejercicio 2:** [Nombre del Ejercicio 2] - *(Próximamente)*
-*   **Ejercicio 3:** [Nombre del Ejercicio 3] - *(Próximamente)*
-*   ... (y así sucesivamente hasta el 15)
 
 ---
 
@@ -94,7 +85,7 @@ Este proyecto utiliza `angular-cli-ghpages` para un despliegue sencillo. Si has 
 ### Ejemplo de Ejericico1
 ![Captura de pantalla 2025-07-15 071246](./Captura%20de%20pantalla%202025-07-15%20071246.png)
 
-### Ejemplo de Ejericico1
+### Ejemplo de Ejericico2
 ![Captura de pantalla 2025-07-15 071315](./Captura%20de%20pantalla%202025-07-15%20071315.png)
 
 Este proyecto fue generado con [Angular CLI](https://github.com/angular/angular-cli) versión 20.X.X._
