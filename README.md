@@ -1,59 +1,95 @@
-# MiProyectoEjercicios
+Cómo Usar esta Plantilla:
+Crea un nuevo archivo llamado README.md en la carpeta principal de tu proyecto (mi-proyecto-ejercicios).
+Copia y pega el siguiente contenido en ese archivo.
+Modifica la información dentro de los [...] para que coincida con tus datos.
+Generated markdown
+# Mi Proyecto de Ejercicios en Angular
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.0.5.
+¡Bienvenido a mi repositorio de ejercicios prácticos con Angular! Este proyecto fue creado como una colección de componentes y ejemplos para demostrar mis habilidades y explorar diferentes funcionalidades del framework Angular.
 
-## Development server
+El proyecto está construido con **Angular v20** y utiliza la arquitectura de componentes **Standalone** y **Angular Material** para la interfaz de usuario.
 
-To start a local development server, run:
+**[Enlace a la demo en GitHub Pages](https://<tu-usuario>.github.io/<tu-repositorio>/)**
 
-```bash
-ng serve
-```
+---
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+##  Sobre el Proyecto
 
-## Code scaffolding
+Este repositorio contiene 15 ejercicios independientes, cada uno enfocado en una característica específica de Angular o Angular Material. El objetivo es crear una referencia visual y funcional de componentes comunes y técnicas de desarrollo.
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+La aplicación tiene una página de inicio que funciona como un índice, permitiendo navegar fácilmente a cada uno de los ejemplos.
 
-```bash
-ng generate component component-name
-```
+###  Tecnologías Utilizadas
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+*   **Framework:** [Angular 20](https://angular.io/)
+*   **UI/UX:** [Angular Material](https://material.angular.io/)
+*   **Lenguaje:** [TypeScript](https://www.typescriptlang.org/)
+*   **Arquitectura:** Componentes Standalone
+*   **Routing:** Angular Router
+*   **Despliegue:** [GitHub Pages](https://pages.github.com/)
 
-```bash
-ng generate --help
-```
+---
 
-## Building
+## Lista de Ejercicios
 
-To build the project run:
+Aquí está la lista de los ejercicios implementados hasta ahora. ¡Haz clic en cualquiera para verlo en acción!
 
-```bash
-ng build
-```
+*   **[Ejercicio 1: Autocomplete](https://<tu-usuario>.github.io/<tu-repositorio>/ejercicio-autocomplete)** - Un campo de autocompletado que sugiere opciones mientras el usuario escribe, resaltando automáticamente la primera opción.
+*   **Ejercicio 2:** [Nombre del Ejercicio 2] - *(Próximamente)*
+*   **Ejercicio 3:** [Nombre del Ejercicio 3] - *(Próximamente)*
+*   ... (y así sucesivamente hasta el 15)
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+---
 
-## Running unit tests
+##  Cómo Ejecutar el Proyecto Localmente
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+Si deseas clonar este repositorio y ejecutarlo en tu máquina local, sigue estos pasos:
 
-```bash
-ng test
-```
+### Prerrequisitos
 
-## Running end-to-end tests
+*   Tener [Node.js](https://nodejs.org/) (versión 18 o superior) instalado.
+*   Tener el [Angular CLI](https://angular.io/cli) instalado globalmente (`npm install -g @angular/cli`).
 
-For end-to-end (e2e) testing, run:
+### Pasos de Instalación
 
-```bash
-ng e2e
-```
+1.  **Clona el repositorio:**
+    ```bash
+    git clone https://github.com/<tu-usuario>/<tu-repositorio>.git
+    ```
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+2.  **Navega a la carpeta del proyecto:**
+    ```bash
+    cd <tu-repositorio>
+    ```
 
-## Additional Resources
+3.  **Instala las dependencias:**
+    ```bash
+    npm install
+    ```
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+4.  **Ejecuta el servidor de desarrollo:**
+    ```bash
+    ng serve -o
+    ```
+    La aplicación se abrirá automáticamente en tu navegador en `http://localhost:4200/`.
+
+---
+
+##  Despliegue en GitHub Pages
+
+Este proyecto utiliza `angular-cli-ghpages` para un despliegue sencillo. Si has clonado el repositorio y quieres desplegar tu propia versión:
+
+1.  Asegúrate de haber configurado tu propio repositorio en GitHub.
+2.  Ejecuta el siguiente comando (reemplazando `<nombre-del-repo>` con el nombre de tu repositorio):
+    ```bash
+    ng deploy --base-href=/<nombre-del-repo>/
+    ```
+
+---
+
+Este proyecto fue generado con [Angular CLI](https://github.com/angular/angular-cli) versión 20.X.X._
+Una vez que tengas el archivo README.md listo, solo tienes que subirlo a tu repositorio de GitHub:
+Generated bash
+git add README.md
+git commit -m "Añadir README profesional al proyecto"
+git push origin main
